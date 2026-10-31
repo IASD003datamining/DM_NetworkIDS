@@ -1,0 +1,20 @@
+notebooks/
+│
+├── eda.ipynb
+│   │
+│   ├── Chargement des données
+│   ├── Vue générale
+│   ├── Statistiques descriptives
+│   ├── Variables numériques
+│   ├── Variables catégorielles
+│   ├── Distribution des classes
+│   ├── Corrélations
+│   └── Patterns / Conclusions
+│
+└── statistical_tests.ipynb
+    │
+    ├── Chi²
+    ├── ANOVA
+    ├── Hypothèses H₀/H₁
+    ├── p-value
+    └── Conclusions
