@@ -1,0 +1,4 @@
+protocol_type,back,buffer_overflow,ftp_write,guess_passwd,imap,ipsweep,land,loadmodule,multihop,neptune,nmap,normal,perl,phf,pod,portsweep,rootkit,satan,smurf,spy,teardrop,warezclient,warezmaster
+icmp,0,0,0,0,0,3117,0,0,0,0,981,1309,0,0,201,5,0,32,2646,0,0,0,0
+tcp,956,30,8,53,11,482,18,9,7,41214,265,53600,3,4,0,2926,7,2184,0,2,0,890,20
+udp,0,0,0,0,0,0,0,0,0,0,247,12434,0,0,0,0,3,1417,0,0,892,0,0

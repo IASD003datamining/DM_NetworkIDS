@@ -1,0 +1,5 @@
+Test,Statistique,P_value,Decision
+Chi2,110962.04754876824,0.0,Rejet de H0
+ANOVA,1651.3218426011813,0.0,Rejet de H0
+Levene,1651.3273040304605,0.0,Variances non homogenes
+Kruskal-Wallis,14501.58833252334,0.0,Rejet de H0

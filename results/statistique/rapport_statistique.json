@@ -1,0 +1,41 @@
+{
+    "Chi2": {
+        "Test": "Chi-square",
+        "Variable_1": "protocol_type",
+        "Variable_2": "label",
+        "Observations": 125973,
+        "Chi2_statistic": 110962.04754876824,
+        "p_value": 0.0,
+        "Degrees_of_freedom": 44,
+        "Alpha": 0.05,
+        "Decision": "Rejet de H0",
+        "Conclusion": "Association statistiquement significative.",
+        "Cramers_V": 0.6636414402498989,
+        "Minimum_expected": 0.13163138132774482,
+        "Proportion_expected_below_5": 0.37681159420289856,
+        "Assumptions_respected": false
+    },
+    "ANOVA": {
+        "Test": "One-way ANOVA",
+        "Variable": "duration",
+        "Grouping_variable": "label",
+        "F_statistic": 1651.3218426011813,
+        "p_value": 0.0,
+        "Alpha": 0.05,
+        "Eta_squared": 0.22386792195863034,
+        "Decision": "Rejet de H0",
+        "Conclusion": "Au moins une moyenne de duration differe significativement."
+    },
+    "Levene": {
+        "Test": "Levene",
+        "Statistic": 1651.3273040304605,
+        "p_value": 0.0,
+        "Decision": "Variances non homogenes"
+    },
+    "Kruskal_Wallis": {
+        "Test": "Kruskal-Wallis",
+        "Statistic": 14501.58833252334,
+        "p_value": 0.0,
+        "Decision": "Rejet de H0"
+    }
+}
