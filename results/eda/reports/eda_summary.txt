@@ -1,0 +1,73 @@
+RÉSUMÉ AUTOMATIQUE DE L'EDA — NSL-KDD / KDDTrain
+============================================================
+
+1. Dimensions du dataset
+- Nombre de lignes : 125973
+- Nombre de colonnes : 43
+
+2. Qualité des données
+- Valeurs manquantes totales : 0
+- Colonnes contenant des valeurs manquantes : 0
+- Nombre de doublons : 0
+
+3. Structure des variables
+- Variables numériques : 39
+- Variables catégorielles : 3
+- Colonne cible détectée : label
+
+4. Distribution de la variable cible
+- Nombre de classes : 23
+- normal : 67343 observations (53.46%)
+- neptune : 41214 observations (32.72%)
+- satan : 3633 observations (2.88%)
+- ipsweep : 3599 observations (2.86%)
+- portsweep : 2931 observations (2.33%)
+- smurf : 2646 observations (2.10%)
+- nmap : 1493 observations (1.19%)
+- back : 956 observations (0.76%)
+- teardrop : 892 observations (0.71%)
+- warezclient : 890 observations (0.71%)
+- pod : 201 observations (0.16%)
+- guess_passwd : 53 observations (0.04%)
+- buffer_overflow : 30 observations (0.02%)
+- warezmaster : 20 observations (0.02%)
+- land : 18 observations (0.01%)
+- imap : 11 observations (0.01%)
+- rootkit : 10 observations (0.01%)
+- loadmodule : 9 observations (0.01%)
+- ftp_write : 8 observations (0.01%)
+- multihop : 7 observations (0.01%)
+- phf : 4 observations (0.00%)
+- perl : 3 observations (0.00%)
+- spy : 2 observations (0.00%)
+
+5. Déséquilibre des classes
+- Classe majoritaire : normal
+- Classe minoritaire : spy
+- Ratio majoritaire / minoritaire : 33671.50
+
+6. Corrélations fortes
+- Nombre de paires avec |corrélation| > 0.8 : 4
+- num_root / num_compromised : 0.9988
+- serror_rate / srv_serror_rate : 0.9933
+- rerror_rate / srv_rerror_rate : 0.9890
+- dst_host_srv_count / dst_host_same_srv_rate : 0.8967
+
+7. Outliers détectés par la méthode IQR
+- duration : 10018 outliers (7.95%)
+- src_bytes : 13840 outliers (10.99%)
+- dst_bytes : 23579 outliers (18.72%)
+- count : 3157 outliers (2.51%)
+- srv_count : 12054 outliers (9.57%)
+
+8. Patterns principaux par classe
+- Moyennes des principales variables numériques par classe : voir results/eda/tables/class_patterns.csv
+- Protocoles les plus fréquents par classe : voir la section 'Détection simple de patterns'.
+- Services les plus fréquents par classe : voir la section 'Détection simple de patterns'.
+
+9. Implications pour le preprocessing
+- Les valeurs manquantes, si présentes, devront être traitées avant l'entraînement.
+- Les variables catégorielles devront être encodées lors du preprocessing.
+- Les distributions asymétriques pourront nécessiter une transformation adaptée.
+- Le déséquilibre des classes devra être pris en compte dans l'évaluation du modèle.
+- Les outliers ne doivent pas être supprimés automatiquement, car ils peuvent correspondre à des comportements réseau anormaux ou à des attaques.

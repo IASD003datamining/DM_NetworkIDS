@@ -1,0 +1,16 @@
+﻿service,fréquence,pourcentage
+http,40338,32.02
+private,21853,17.35
+domain_u,9043,7.18
+smtp,7313,5.81
+ftp_data,6860,5.45
+eco_i,4586,3.64
+other,4359,3.46
+ecr_i,3077,2.44
+telnet,2353,1.87
+finger,1767,1.4
+ftp,1754,1.39
+auth,955,0.76
+Z39_50,862,0.68
+uucp,780,0.62
+courier,734,0.58

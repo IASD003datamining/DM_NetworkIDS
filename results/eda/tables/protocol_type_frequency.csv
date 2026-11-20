@@ -1,0 +1,4 @@
+﻿protocol_type,fréquence,pourcentage
+tcp,102689,81.52
+udp,14993,11.9
+icmp,8291,6.58
