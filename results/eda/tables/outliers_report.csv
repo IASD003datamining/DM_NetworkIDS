@@ -1,0 +1,6 @@
+﻿variable,Q1,Q3,IQR,borne_inférieure,borne_supérieure,nombre_outliers,pourcentage_outliers
+duration,0.0,0.0,0.0,0.0,0.0,10018,7.95
+src_bytes,0.0,276.0,276.0,-414.0,690.0,13840,10.99
+dst_bytes,0.0,516.0,516.0,-774.0,1290.0,23579,18.72
+count,2.0,143.0,141.0,-209.5,354.5,3157,2.51
+srv_count,2.0,18.0,16.0,-22.0,42.0,12054,9.57
